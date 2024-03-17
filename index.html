@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="col-12">
+            <label for="formFileSm" class="form-label">Photo</label> 
+            <input class="form-control form-control-sm files" id="formFileSm" type="file" multiple>
+            <span class="mb-2"> name</span>
+        
+
+            <span class="mb-2 d-block ">price</span>
+            <input class="form-control form-control-lg mb-2 pricesInput" type="text" placeholder=".form-control-lg"
+                aria-label=".form-control-lg example">
+            <span class="mb-2">description</span>
+            <input class="form-control form-control-lg mb-2 descriptionInput " type="text" placeholder=".form-control-lg"
+                aria-label=".form-control-lg example">
+                <button class="btn  btn-primary mb-2 d-block  SendingFinal">create</button>
+        </div>
+        <div class="photoPlace  ">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/empty.jpg" class="card-img-top" id="imageMain" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title prices">$</h5>
+                  <p class="card-text description"></p>
+                </div>
+              </div>
+        </div>
+        <div class="newOne d-flex">
+        
+        </div>
+    </div>
+  
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
